@@ -9,6 +9,7 @@
     font-size: 25px;
     padding: 15px;
     border-bottom: 4px solid black;
+    z-index: 1001;
 } 
 
 .menu-right {
@@ -28,7 +29,7 @@
 }
 
 .menu-right a:hover {
-    color:saddlebrown;
+    color:dimgray;
 }
 
 body {
@@ -100,11 +101,8 @@ body {
     font-weight: bold;
     padding: 20px;
     display: block;
+    text-align: center;
     border-radius: 15px;
-}
-
-.card-button:hover{
-        background-image: linear-gradient(0, red 0%, orange 100%);
 }
 
 .footer{
@@ -179,3 +177,51 @@ body {
 .logo-text{
     vertical-align: middle;
 }
+
+.item-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-content {
+    width: 50%;
+    min-width: 500px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.item-close {
+    width: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer
+}
+
+.item-close:hover{
+    opacity: 0.8;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-img {
+    height: 430px;
+}
+
+.item-header {
+    text-align: center
+}
+
