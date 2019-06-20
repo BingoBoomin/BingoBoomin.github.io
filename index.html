@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bingo Boomin</title>
     <link href="index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -22,25 +23,89 @@
                                 <a href="#footer">Контакты</a>  
                         </span>
                     </header>
+                    
     <main id="main" class"main">
 
-        <div class="item-window">
+        <div class="item-window first">
             <div class="item-content">
                 <h2 class="item-header">
-                    MP3 Lease
+                    MP3 Lease (базовая аренда).
                 </h2>
                 <img class="item-close" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png">
                 <div class="item-info">
                     <div class="item-text">
-                        <h3>MP3 Lease</h3>
-                        <p>После оплаты покупатель получает MP3 файл (с одним тегом).
-                                <br>Авторские права на бит остаются за DJ Bingo Boomin.
-                                <br>Бит остаётся в продаже до выкупа эксклюзивных прав.
-                                <br>Нельзя размещать трек на цифровых площадках (BOOM, iTunes и т.д).
-                                <br>Обязательное указание [prod. by DJ Bingo Boomin] в названии аудио и гиперссылка в посте.</p>
-                        <a href="#" class="card-button">Купить</a>
+                        <h3>Информация.</h3>
+                        <p>- После оплаты покупатель получает MP3 файл (с одним тегом).</p>
+                        <p>- Авторские права на бит остаются за DJ Bingo Boomin.</p>
+                        <p>- Бит остаётся в продаже до выкупа эксклюзивных прав.</p>
+                        <p>- Нельзя размещать трек на цифровых площадках (BOOM, iTunes и т.д).</p>
+                        <p>- Обязательное указание [prod. by DJ Bingo Boomin] в названии аудио и гиперссылка в посте.</p>
+                        <a href="#" class="card-button modal-button">Купить</a>
                     </div>
                         <img class="item-img" src="https://pp.userapi.com/c846420/v846420708/1eeb09/iDMnJvCrYY8.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="item-window second">
+            <div class="item-content">
+                <h2 class="item-header">
+                    WAV Lease (базовая аренда).
+                </h2>
+                <img class="item-close" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png">
+                <div class="item-info">
+                    <div class="item-text">
+                        <h3>Информация.</h3>
+                        <p>- После оплаты покупатель получает WAV файл (с одним тегом).</p>
+                        <p>- Авторские права на бит остаются за DJ Bingo Boomin.</p>
+                        <p>- Бит остаётся в продаже до выкупа эксклюзивных прав.</p>
+                        <p>- Нельзя размещать трек на цифровых площадках (BOOM, iTunes и т.д).</p>
+                        <p>- Обязательное указание [prod. by DJ Bingo Boomin] в названии аудио и гиперссылка в посте.</p>
+                        <a href="#" class="card-button modal-button">Купить</a>
+                    </div>
+                        <img class="item-img" src="https://pp.userapi.com/c846020/v846020708/1ed8e3/HO_XwGcaZbI.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="item-window third">
+            <div class="item-content">
+                <h2 class="item-header">
+                    PREMIUM Lease (базовая аренда).
+                </h2>
+                <img class="item-close" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png">
+                <div class="item-info">
+                    <div class="item-text">
+                        <h3>Информация.</h3>
+                        <p>- После оплаты покупатель получает WAV файл (с одним тегом) и TRACKOUT.</p>
+                        <p>- Авторские права на бит остаются за DJ Bingo Boomin.</p>
+                        <p>- Бит остаётся в продаже до выкупа эксклюзивных прав.</p>
+                        <p>- Нельзя размещать трек на цифровых площадках (BOOM, iTunes и т.д).</p>
+                        <p>- Обязательное указание [prod. by DJ Bingo Boomin] в названии аудио и гиперссылка в посте.</p>
+                        <a href="#" class="card-button modal-button">Купить</a>
+                    </div>
+                        <img class="item-img" src="https://pp.userapi.com/c855224/v855224708/2dfce/ZMP2z9Vbano.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="item-window fourth">
+            <div class="item-content">
+                <h2 class="item-header">
+                    EXCLUSIVE (коммерческая аренда).
+                </h2>
+                <img class="item-close" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png">
+                <div class="item-info">
+                    <div class="item-text">
+                        <h3>Информация.</h3>
+                        <p>- После оплаты покупатель получает WAV файл (с одним тегом или без него) и TRACKOUT.</p>
+                        <p>- Бит снимается с продажи.</p>
+                        <p>- После оплаты права на бит передаются покупателю.</p>
+                        <p>- Можно размещать трек на цифровых площадках (BOOM, iTunes и т.д).</p>
+                        <p>- Обязательное указание [prod. by DJ Bingo Boomin] в названии аудио и гиперссылка в посте.</p>
+                        <a href="#" class="card-button modal-button">Купить</a>
+                    </div>
+                        <img class="item-img" src="https://pp.userapi.com/c850020/v850020708/172078/2szHc6nIvVs.jpg">
                 </div>
             </div>
         </div>
@@ -63,7 +128,7 @@
                  <h4>MP3 Lease</h4>
                  <p>Бит отдается в аренду, с правом записи и распространением записанного на него материала, но авторские права остаются за Bingo Boomin.</p>
                  <p>Бит отдается в MP3.</p>
-                 <a href="https://vk.com/market-179826182?w=product-179826182_2843852%2Fquery" class="card-button">Подробнее</a>
+                 <a href="https://vk.com/market-179826182?w=product-179826182_2843852%2Fquery" class="card-button first">Подробнее</a>
              </div>
                     </div>
                     <div class="leasing-card">
@@ -74,7 +139,7 @@
                 <h4>WAV Lease</h4>
                 <p>Бит отдается в аренду, с правом записи и распространением записанного на него материала, но авторские права остаются за Bingo Boomin.</p>
                 <p>Бит отдается в WAV.</p>
-                <a href="https://vk.com/market-179826182?w=product-179826182_2843854%2Fquery" class="card-button">Подробнее</a>
+                <a href="https://vk.com/market-179826182?w=product-179826182_2843854%2Fquery" class="card-button second">Подробнее</a>
             </div>
                    </div>
                    <div class="leasing-card">
@@ -85,7 +150,7 @@
             <h4>PREMIUM Lease</h4>
             <p>Бит отдается в аренду, с правом записи и распространением записанного на него материала, но авторские права остаются за Bingo Boomin.</p>
             <p>Бит отдается в TRACKOUT и WAV.</p>
-            <a href="https://vk.com/market-179826182?w=product-179826182_2844187%2Fquery" class="card-button">Подробнее</a>
+            <a href="https://vk.com/market-179826182?w=product-179826182_2844187%2Fquery" class="card-button third">Подробнее</a>
         </div>
                </div>
                <div class="leasing-card">
@@ -96,7 +161,7 @@
         <h4>EXCLUSIVE</h4>
         <p>Бит отдается покупателю с полными авторскими правами, с правом записи и распространением записанного на него материала.</p>
         <p>Бит отдается в TRACKOUT и в WAV.</p>
-        <a href="https://vk.com/market-179826182?w=product-179826182_2844208%2Fquery" class="card-button">Подробнее</a>
+        <a href="https://vk.com/market-179826182?w=product-179826182_2844208%2Fquery" class="card-button fourth">Подробнее</a>
     </div>
            </div>
              </div>

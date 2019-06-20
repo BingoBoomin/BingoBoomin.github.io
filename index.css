@@ -222,7 +222,8 @@ body {
 }
 
 .item-img {
-    height: 430px;
+    height: 420px;
+    border-radius: 7px;
 }
 
 .item-header {
@@ -235,10 +236,15 @@ body {
     display: none;
 }
 
+.modal-button {
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 600px) {
     .menu-right a {
       /*  display: none; */
       padding: 6px;
+      display: block;
     }
 
     .menu-right img {
